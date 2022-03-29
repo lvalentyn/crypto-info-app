@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
 
 const Navbar = () => {
+
 	return (
 		<div className="nav-container">
 			<div className="logo-container">
