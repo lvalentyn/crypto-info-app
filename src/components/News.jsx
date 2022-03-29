@@ -31,7 +31,7 @@ const News = ({ simplified }) => {
 						filterOption={(input, option) => option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0}
 					>
 						<Option value="Cryptocurrency">Cryptocurrency</Option>
-						{data?.data?.coins.map((coin) => <Option value={coin.name}>{coin.name}</Option>)}
+						{data?.data?.coins.map((coin, i) => <Option key={i} value={coin.name}>{coin.name}</Option>)}
 					</Select>
 				</Col>
 			)}

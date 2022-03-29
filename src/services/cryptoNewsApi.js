@@ -23,3 +23,6 @@ export const cryptoNewsApi = createApi({
 export const {
 	useGetCryptoNewsQuery
 } = cryptoNewsApi;
+
+// import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
+// const { data } = useGetCryptoNewsQuery({ newsCategory: 'Cryptocurrency', count: 12 });
